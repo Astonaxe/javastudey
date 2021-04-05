@@ -1,6 +1,6 @@
 package Frame_Test1;
 
-import java.awt.*;
+import java.awt.*; // Frame 생성하기 위해서 import를 통해서 진행한다. 
 
 public class Frame_Test1 {
 

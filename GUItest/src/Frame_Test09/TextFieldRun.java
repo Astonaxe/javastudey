@@ -1,10 +1,10 @@
-package sec10.exam01_static_momber;
+package Frame_Test9;
 
-public class CalculatorExample {
+public class TextFieldRun {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-
+		new TextFieldTest(" ·Î±×ÀÎ ");
 	}
 
 }

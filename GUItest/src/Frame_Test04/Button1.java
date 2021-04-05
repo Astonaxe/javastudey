@@ -3,7 +3,7 @@ import java.awt.*;
 
 public class Button1 extends Frame{
 	
-	Button btn1, btn2, btn3;
+	Button btn1, btn2, btn3; // 생성할 버튼을 지정 
 	
 	public Button1(String str){
 		
