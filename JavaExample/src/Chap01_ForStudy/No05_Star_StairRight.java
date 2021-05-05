@@ -1,20 +1,23 @@
 package Chap01_ForStudy;
 import java.util.*;
 
-public class No01_Star_Stair {
+public class No05_Star_StairRight {
 
 	public static void main(String[] args) {
-		
 		Scanner sc = new Scanner(System.in);
 		
 		int Num = sc.nextInt();
 		
-		for(int i =1; i<=Num; i++){  
-			for(int x =1; x<=i; x++){   
-				System.out.print("*");
-				// i가 증가하면 i 갯수만 큼 * 출력된다.    
+		for(int i = 1; i<=Num; i++){
+			for(int s =1; s<=Num-i; s++){
+				System.out.print(" ");
 			}
-				System.out.println(""); // 줄바꿈 
+			for(int st=1; st<=i; st++){
+				System.out.print("*");
+			}
+		
+			System.out.println("");
+		
 		}
 		
 	}
